@@ -1,3 +1,3 @@
 # Faugei
 
-### Live link :
+### Live link : https://mustakimbin.github.io/faugei/
