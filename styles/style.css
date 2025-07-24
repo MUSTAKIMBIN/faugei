@@ -61,7 +61,7 @@ nav ul li a {
   margin: 40px auto;
 }
 .banner-container h1 {
-  font-size: 3re;
+  font-size: 3rem;
 }
 .banner-container p {
   color: gray;
@@ -79,12 +79,28 @@ nav ul li a {
 /* responsive design */
 
 @media screen and (max-width: 576px) {
+  /* shared style */
+  .hidden {
+    display: none;
+  }
+  .section-title {
+    font-family: "Noto Serif";
+    font-size: 1.5rem;
+  }
   /* navbar */
   nav,
   .banner-container {
     width: 90%;
   }
-  .hidden {
-    display: none;
+  /* banner section */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-container h1 {
+    font-size: 2rem;
+  }
+  .banner-img {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
