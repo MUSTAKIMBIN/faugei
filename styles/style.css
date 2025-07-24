@@ -21,6 +21,17 @@ body {
 span {
   color: #e95a08;
 }
+p {
+  color: gray;
+  font-size: 14px;
+}
+button {
+  background-color: #e95a08;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  color: white;
+}
 
 /* navbar  */
 nav {
@@ -75,7 +86,41 @@ nav ul li a {
   width: 100%;
   height: 100%;
 }
-
+/* our-plants */
+.our-plants h3 {
+  text-align: center;
+}
+.our-plants p {
+  text-align: center;
+}
+.our-plants {
+  width: 80%;
+  margin: 40px auto;
+}
+.plant-cart-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+.plant-cart {
+  width: 100%;
+}
+.plant-cart img {
+  width: 100%;
+  height: 100%;
+}
+.plant-cart p {
+  font-size: 14px;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+.plant-cart h6 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: center;
+}
 /* responsive design */
 
 @media screen and (max-width: 576px) {
