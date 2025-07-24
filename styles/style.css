@@ -120,6 +120,31 @@ nav ul li a {
   margin-bottom: 5px;
   text-align: center;
 }
+
+/* plant lover */
+.plant-lover {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 40px auto;
+}
+.plant-lover-img {
+  width: 100%;
+}
+.plant-lover img {
+  width: 100%;
+}
+.plant-lover-content {
+  padding: 20px;
+}
+.plant-lover-content ul {
+  padding: 20px;
+}
+.plant-lover-content ul li {
+  color: gray;
+  font-size: 14px;
+}
+
 /* responsive design */
 
 @media screen and (max-width: 576px) {
