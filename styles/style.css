@@ -143,6 +143,7 @@ nav ul li a {
 .plant-lover-content ul li {
   color: gray;
   font-size: 14px;
+  padding: 10px 0;
 }
 
 /* responsive design */
@@ -158,7 +159,10 @@ nav ul li a {
   }
   /* navbar */
   nav,
-  .banner-container {
+  .banner-container,
+  .our-plants,
+  .plant-cart-container,
+  .plant-lover {
     width: 90%;
   }
   /* banner section */
@@ -178,5 +182,10 @@ nav ul li a {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin: 20px 0;
+  }
+  /* plant lover */
+  .plant-lover {
+    flex-direction: column;
+    margin: 40px auto;
   }
 }
