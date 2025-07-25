@@ -95,7 +95,7 @@ nav ul li a {
 }
 .our-plants {
   width: 80%;
-  margin: 40px auto;
+  margin: 80px auto;
 }
 .plant-cart-container {
   display: grid;
@@ -126,11 +126,22 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 40px auto;
+  margin: 80px auto;
 }
 .plant-lover-img {
   width: 100%;
+  position: relative;
 }
+.plant-lover-img img:nth-of-type(2) {
+  width: 45%;
+  position: absolute;
+  top: -60px;
+  left: 230px;
+}
+/* .trusted-badge {
+  position: absolute;
+  width: 100px;
+} */
 .plant-lover img {
   width: 100%;
 }
