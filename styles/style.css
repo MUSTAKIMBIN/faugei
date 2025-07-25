@@ -267,6 +267,32 @@ nav ul li a {
 .input-div {
   width: 60%;
 }
+/* footer */
+footer {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+footer .first-foot p {
+  padding: 10px 0;
+}
+footer div li {
+  list-style: none;
+  color: gray;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.forth-foot {
+  display: flex;
+  gap: 20px;
+}
+.forth-foot img {
+  width: 20%;
+  height: 20%;
+}
+
 /* responsive design */
 
 @media screen and (max-width: 576px) {
@@ -330,5 +356,9 @@ nav ul li a {
   }
   .colorful-brunch input {
     width: 65%;
+  }
+  /* footer */
+  footer {
+    flex-direction: column;
   }
 }
