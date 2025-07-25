@@ -145,6 +145,15 @@ nav ul li a {
   font-size: 14px;
   padding: 10px 0;
 }
+/* deals section  */
+.deals {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+.deals p {
+  margin: 20px 0 30px;
+}
 
 /* responsive design */
 
