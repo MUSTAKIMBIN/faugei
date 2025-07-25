@@ -154,7 +154,89 @@ nav ul li a {
 .deals p {
   margin: 20px 0 30px;
 }
+.bg-img-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  height: 40vh;
+}
+.two-img {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bg1 {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(56, 31, 31, 0.212),
+      rgba(54, 54, 41, 0.274)
+    ),
+    url(../assets/deal-bloom.png);
+  border-radius: 5px;
+  color: white;
+  background-size: cover;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg1 h4 {
+  font-family: "Noto Serif";
+}
+.bg1 p {
+  color: white;
+  text-decoration: underline;
+}
 
+.bg2 {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(56, 31, 31, 0.212),
+      rgba(54, 54, 41, 0.274)
+    ),
+    url(../assets/deal-ana.png);
+  border-radius: 5px;
+  color: white;
+  height: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg2 h4 {
+  font-family: "Noto Serif";
+}
+.bg2 p {
+  color: white;
+  text-decoration: underline;
+}
+.bg3 {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(56, 31, 31, 0.212),
+      rgba(54, 54, 41, 0.274)
+    ),
+    url(../assets/deal-zabo.png);
+  width: 70%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg3 h4 {
+  font-family: "Noto Serif";
+  font-size: 2rem;
+}
+.bg3 p {
+  color: white;
+  text-decoration: underline;
+}
 /* responsive design */
 
 @media screen and (max-width: 576px) {
