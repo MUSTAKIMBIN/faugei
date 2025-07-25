@@ -221,6 +221,7 @@ nav ul li a {
       rgba(54, 54, 41, 0.274)
     ),
     url(../assets/deal-zabo.png);
+  background-size: cover;
   width: 70%;
   border-radius: 10px;
   color: white;
@@ -236,6 +237,35 @@ nav ul li a {
 .bg3 p {
   color: white;
   text-decoration: underline;
+}
+/* colorful-brunch */
+.colorful-brunch {
+  margin: 50px 0;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 40vh;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.colorful-brunch h3 {
+  color: white;
+}
+.colorful-brunch input {
+  border: none;
+  width: 80%;
+  padding: 10px 0 10px 10px;
+}
+.colorful-brunch button {
+  display: inline;
+  width: auto;
+  padding: 10px;
+  margin-left: -5px;
+}
+.input-div {
+  width: 60%;
 }
 /* responsive design */
 
@@ -283,13 +313,8 @@ nav ul li a {
   /* deals section */
   .bg-img-container {
     flex-direction: column;
+    margin-bottom: 120px;
   }
-  /* .bg1{
-    width: 100%;
-  }
-  .bg2{
-    width: 100%;
-  } */
   .two-img {
     width: 100%;
   }
@@ -298,5 +323,12 @@ nav ul li a {
   }
   .bg3 h4 {
     font-size: medium;
+  }
+  /* colorful brunch */
+  .input-div {
+    width: 80%;
+  }
+  .colorful-brunch input {
+    width: 65%;
   }
 }
