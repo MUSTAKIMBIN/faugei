@@ -253,7 +253,8 @@ nav ul li a {
   .banner-container,
   .our-plants,
   .plant-cart-container,
-  .plant-lover {
+  .plant-lover,
+  .deals {
     width: 90%;
   }
   /* banner section */
@@ -278,5 +279,24 @@ nav ul li a {
   .plant-lover {
     flex-direction: column;
     margin: 40px auto;
+  }
+  /* deals section */
+  .bg-img-container {
+    flex-direction: column;
+  }
+  /* .bg1{
+    width: 100%;
+  }
+  .bg2{
+    width: 100%;
+  } */
+  .two-img {
+    width: 100%;
+  }
+  .bg3 {
+    width: 100%;
+  }
+  .bg3 h4 {
+    font-size: medium;
   }
 }
